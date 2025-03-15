@@ -13,13 +13,13 @@ Task Tracker CLI is a **Command Line Interface (CLI)** and **REST API**-based ap
 
 
 ## 🏗️ Tech Stack
-🟢 **☕ Java 17** - Java                                          
-🟢 **🌱 Spring Boot** - Backend Framework  
-🟢 **📦 MongoDB** - NoSQL Database  
-🟢 **🖥️ Spring Shell (CLI Support)** - CLI Interface  
-🟢 **✨ Lombok** - Reducing Boilerplate Code  
-🟢 **📜 Swagger (API Documentation)** - API Documentation  
-🟢 **🛠️ Maven (Build & Dependency Management)** - Dependency Management  
+- ☕ **Java 17** - Java                                          
+- 🌱 **Spring Boot** - Backend Framework  
+- 📦 **MongoDB** - NoSQL Database  
+- 🖥️ **Spring Shell (CLI Support)** - CLI Interface  
+- ✨ **Lombok** - Reducing Boilerplate Code  
+- 📜 **Swagger (API Documentation)** - API Documentation  
+- 🛠️ **Maven (Build & Dependency Management)** - Dependency Management  
 
 ## 📂 Project Structure
 ```
