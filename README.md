@@ -4,21 +4,22 @@
 Task Tracker CLI is a **Command Line Interface (CLI)** and **REST API**-based application built with **Spring Boot** and **MongoDB**. It helps users efficiently manage tasks, allowing them to **add, update, delete, and track tasks** directly from the CLI or through REST APIs.
 
 ## 🎯 Features
-✅ **Add New Tasks**  
-✅ **Update Existing Tasks**  
-✅ **Delete Tasks**  
-✅ **Mark Tasks as Completed**  
-✅ **List Tasks by Status**  
-✅ **Swagger UI for API Documentation**  
-✅ **MongoDB for Storage**
+- 🏗️ **Create, Update, Delete Tasks**
+- 🔄 **Change Task Status** (Todo, In-Progress, Done)
+- 📋 **List Tasks** with filtering options
+- 📡 **REST API & CLI support** for flexible usage
+- 📜 **Swagger UI** for API Documentation
+- 🌿 **MongoDB for Storage**  
+
 
 ## 🏗️ Tech Stack
-🟢 **Spring Boot** - Backend Framework  
-🟢 **MongoDB** - NoSQL Database  
-🟢 **Spring Shell** - CLI Interface  
-🟢 **Lombok** - Reducing Boilerplate Code  
-🟢 **Swagger UI** - API Documentation  
-🟢 **Maven** - Dependency Management  
+🟢 **☕ Java 17** - Java 
+🟢 **🌱 Spring Boot** - Backend Framework  
+🟢 **📦 MongoDB** - NoSQL Database  
+🟢 **🖥️ Spring Shell (CLI Support)** - CLI Interface  
+🟢 **✨ Lombok** - Reducing Boilerplate Code  
+🟢 **📜 Swagger (API Documentation)** - API Documentation  
+🟢 **🛠️ Maven (Build & Dependency Management)** - Dependency Management  
 
 ## 📂 Project Structure
 ```
@@ -74,13 +75,31 @@ cd tasktrackercli
 # Run the Spring Boot application
 mvn spring-boot:run
 ```
-**Available CLI Commands:**
+#### **Step 1: Available CLI Commands:**
 ```sh
 add "Task description"       # Add a new task
 update <task_id> "New desc"  # Update task description
 delete <task_id>            # Delete a task
 status <task_id> done       # Change task status
 list                        # List all tasks
+```
+
+#### **Step 2: Use CLI Commands**
+```bash
+# Add a new task
+add --description "Finish project report"
+
+# Update a task
+update --id 123456 --description "Update project report"
+
+# Delete a task
+delete --id 123456
+
+# Change task status
+status --id 123456 --status "done"
+
+# List all tasks
+list
 ```
 
 ### 2️⃣ Running via Swagger (API UI)
